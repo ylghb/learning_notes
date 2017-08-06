@@ -2,6 +2,10 @@
 早稻田上学期间的一些代码, 目标是用Python来完成需要编程的作业.
 
 
+
+### Bayesian_Statistical
+贝叶斯统计学
+
 ### コンピューテーショナルファイナンス
 Fri_06_Computational_Finance
 
