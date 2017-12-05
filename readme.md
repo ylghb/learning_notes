@@ -1,3 +1,6 @@
+![status-working](https://img.shields.io/badge/status-working-green.svg?style=flat-square)
+
+
 # Let the learning begin
 主要使用Jupyter Notebook做记录,
 插图不是很方便,尽量避免插图......
