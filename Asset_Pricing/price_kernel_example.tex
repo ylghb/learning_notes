@@ -12,7 +12,19 @@
 \usepackage{mathrsfs}
 \usepackage{url}
 
-\title{CAPMと平均分散モデル \\池田ゼミ講義ノート}
+
+\DeclareKanjiFamily{JY2}{zhsong}{}
+\DeclareFontShape{JY2}{zhsong}{m}{n}{<-> upzhserif-h}{}
+\newcommand\songti{\kanjifamily{zhsong}\selectfont}
+\DeclareKanjiFamily{JY2}{zhhei}{}
+\DeclareFontShape{JY2}{zhhei}{m}{n}{<-> upzhsans-h}{}
+\newcommand\heiti{\kanjifamily{zhhei}\selectfont}
+\special{pdf:mapline upserif-h UniGB-UTF16-H simsun.ttc}
+\special{pdf:mapline upsans-h UniGB-UTF16-H simhei.ttf}
+
+
+
+\title{プライシングカーネルのフォーム \\池田ゼミ講義ノート}
 \author{羅洪帥(57165029)}
 \date{}
 
@@ -41,8 +53,8 @@ Cov(\widetilde{x}, \widetilde{y})
 & = E[\tilde{x} (\tilde{y} - \mu_y  )]\\
 & = E[(\tilde{x} - \mu_x  ) \tilde{y} ]
 \end{align*}
+{\songti 各种定价模型，基本都是怎么用一种多项式来逼近.}
 
-各种定价模型，基本都是怎么用一种多项式来逼近
 
 \section{CAPMの導出}
 
