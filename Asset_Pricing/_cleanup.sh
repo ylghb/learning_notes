@@ -1,3 +1,10 @@
+#!/usr/bin/env bash
+
+BASEDIR=$(dirname "$0")
+echo "$BASEDIR"
+
+cd $BASEDIR
+
 ## Core latex/pdflatex auxiliary files:
 rm -f *.aux
 rm -f *.lof
@@ -57,165 +64,155 @@ rm -f *.snm
 rm -f *.vrb
 
 # changes
-*.soc
+rm -f *.soc
 
 # cprotect
-*.cpt
+rm -f *.cpt
 
 # elsarticle (documentclass of Elsevier journals)
-*.spl
+rm -f *.spl
 
 # endnotes
-*.ent
+rm -f *.ent
 
 # fixme
-*.lox
+rm -f *.lox
 
 # feynmf/feynmp
-*.mf
-*.mp
-*.t[1-9]
-*.t[1-9][0-9]
-*.tfm
+rm -f *.mf
+rm -f *.mp
+rm -f *.t[1-9]
+rm -f *.t[1-9][0-9]
+rm -f *.tfm
 
 #(r)(e)ledmac/(r)(e)ledpar
-*.end
-*.?end
-*.[1-9]
-*.[1-9][0-9]
-*.[1-9][0-9][0-9]
-*.[1-9]R
-*.[1-9][0-9]R
-*.[1-9][0-9][0-9]R
-*.eledsec[1-9]
-*.eledsec[1-9]R
-*.eledsec[1-9][0-9]
-*.eledsec[1-9][0-9]R
-*.eledsec[1-9][0-9][0-9]
-*.eledsec[1-9][0-9][0-9]R
+rm -f *.end
+rm -f *.?end
+rm -f *.[1-9]
+rm -f *.[1-9][0-9]
+rm -f *.[1-9][0-9][0-9]
+rm -f *.[1-9]R
+rm -f *.[1-9][0-9]R
+rm -f *.[1-9][0-9][0-9]R
+rm -f *.eledsec[1-9]
+rm -f *.eledsec[1-9]R
+rm -f *.eledsec[1-9][0-9]
+rm -f *.eledsec[1-9][0-9]R
+rm -f *.eledsec[1-9][0-9][0-9]
+rm -f *.eledsec[1-9][0-9][0-9]R
 
 # glossaries
-*.acn
-*.acr
-*.glg
-*.glo
-*.gls
-*.glsdefs
+rm -f *.acn
+rm -f *.acr
+rm -f *.glg
+rm -f *.glo
+rm -f *.gls
+rm -f *.glsdefs
 
 # gnuplottex
-*-gnuplottex-*
+rm -f *-gnuplottex-*
 
 # gregoriotex
-*.gaux
-*.gtex
+rm -f *.gaux
+rm -f *.gtex
 
 # hyperref
-*.brf
+rm -f *.brf
 
 # knitr
-*-concordance.tex
+rm -f *-concordance.tex
 # TODO Comment the next line if you want to keep your tikz graphics files
-*.tikz
-*-tikzDictionary
+rm -f *.tikz
+rm -f *-tikzDictionary
 
 # listings
-*.lol
+rm -f *.lol
 
 # makeidx
-*.idx
-*.ilg
-*.ind
-*.ist
+rm -f *.idx
+rm -f *.ilg
+rm -f *.ind
+rm -f *.ist
 
 # minitoc
-*.maf
-*.mlf
-*.mlt
-*.mtc[0-9]*
-*.slf[0-9]*
-*.slt[0-9]*
-*.stc[0-9]*
+rm -f *.maf
+rm -f *.mlf
+rm -f *.mlt
+rm -f *.mtc[0-9]*
+rm -f *.slf[0-9]*
+rm -f *.slt[0-9]*
+rm -f *.stc[0-9]*
 
 # minted
-_minted*
-*.pyg
+rm -f *.pyg
 
 # morewrites
-*.mw
+rm -f *.mw
 
 # nomencl
-*.nlo
+rm -f *.nlo
 
 # pax
-*.pax
+rm -f *.pax
 
 # pdfpcnotes
-*.pdfpc
+rm -f *.pdfpc
 
 # sagetex
-*.sagetex.sage
-*.sagetex.py
-*.sagetex.scmd
+rm -f *.sagetex.sage
+rm -f *.sagetex.py
+rm -f *.sagetex.scmd
 
 # scrwfile
-*.wrt
+rm -f *.wrt
 
 # sympy
-*.sout
-*.sympy
-sympy-plots-for-*.tex/
+rm -f *.sout
+rm -f *.sympy
 
 # pdfcomment
-*.upa
-*.upb
+rm -f *.upa
+rm -f *.upb
 
 # pythontex
-*.pytxcode
-pythontex-files-*/
-
+rm -f *.pytxcode
 # thmtools
-*.loe
+rm -f *.loe
 
 # TikZ & PGF
-*.dpth
-*.md5
-*.auxlock
+rm -f *.dpth
+rm -f *.md5
+rm -f *.auxlock
 
 # todonotes
-*.tdo
+rm -f *.tdo
 
 # easy-todo
-*.lod
+rm -f *.lod
 
 # xindy
-*.xdy
+rm -f *.xdy
 
 # xypic precompiled matrices
-*.xyc
+rm -f *.xyc
 
 # endfloat
-*.ttt
-*.fff
-
-# Latexian
-TSWLatexianTemp*
+rm -f *.ttt
+rm -f *.fff
 
 ## Editors:
 # WinEdt
-*.bak
-*.sav
-
-# Texpad
-.texpadtmp
+rm -f *.bak
+rm -f *.sav
 
 # Kile
-*.backup
+rm -f *.backup
 
 # KBibTeX
-*~[0-9]*
+rm -f *~[0-9]*
 
-# auto folder when using emacs and auctex
-/auto/*
 
 # expex forward references with \gathertags
-*-tags.tex
+rm -f *-tags.tex
+
+# read -n 1 -p "Press any key to continue..."
