@@ -19,76 +19,50 @@
     - 反射性
     - 连续性
 - 如何表达消费者的消费偏好顺序
-
 ## 不确定性条件下的偏好顺序
 ### 主观概率与客观概率
-
 追加的三条公理
 - 连续性
 - 独立性
 - 单调性
-
 ## 期望效用理论的限制
 ### 圣彼得堡反例
-
 效用函数如果没有上界, 那么就会出现期望效用为无限大的情况
-
 ### Allalis's paradox
-
 # Lesson 02 何为风险溢价
-
+## 风险补偿与确定性等价(certainty equivalent)
+### 风险溢价
+- 效用函数是凹函数 等价于 风险溢价为正
+- 凹的程度越厉害, 风险溢价越大
+## 金融业的实际应用
+### 保险
+### 风险溢价与财富的比值
+## 绝对风险回避与相对风险回避
+以A记录风险资产投资额
+| 风险厌恶         |      | 投资行为  随财富增加 | 数学表达                             |
+| ---------------- | ---- | -------------------- | ------------------------------------ |
+| 绝对分线厌恶递减 | DARA | 风险资产额上升       | $\frac {\partial A}{\partial W_0}>0$ |
+| 绝对分线厌恶常数 | CARA | 风险资产额不变       |                                      |
+| 绝对分线厌恶递增 | IARA | 风险资产额下降       |                                      |
+| 相对风险厌恶递减 | DRRA | 风险资产比例上升     |                                      |
+| 相对风险厌恶常数 | CRRA | 风险资产比例不变     |                                      |
+| 相对风险厌恶递增 | IRRA | 风险资产比例下降     |                                      |
+## 常见的效用函数
+- power utility
+- logarithmic utility
+- negative exponential
 # Lesson 03 风险回避度与风险资产投资(1)
+## 平均方差分析与期望效用的矛盾
+## 平均方差分析与期望效用的整合
 
 # Lesson 04 风险回避度与风险资产投资(2)
 
 # Lesson 05 期望方差分析与资本资产价格理论(1)
 
 # Lesson 06 期望方差分析与资本资产价格理论(2)
-
+## Black(1972) Zero Beta CAPM
+## 标准CAPM
+## Two fund monetary separation
 # Lesson 07 期望方差分析与资本资产价格理论(3)
 
 # Lesson 08 基于无套利的资产价格确定
-
-#
-
-
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test1
-## Test2
