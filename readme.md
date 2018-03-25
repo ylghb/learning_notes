@@ -5,6 +5,13 @@
 主要使用Jupyter Notebook做记录,
 插图不是很方便,尽量避免插图......
 
+## Learn Log
+
+### Ongoing
+
+中科大史济怀版数学分析
+
+### Done
 
 ## Reading Notes
 
