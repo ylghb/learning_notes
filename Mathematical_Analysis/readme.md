@@ -2,10 +2,11 @@
 
 ## 资料来源
 - 视频来源自YouTube: [中科大数学分析——史济怀](https://www.youtube.com/watch?v=WspjK4RqxYc&t=626s)
+原视频中只有单声道有声音, 进行了修复后重新上传
 - 目录名称来源于: 优酷网友的上传 [数学分析-史济怀完整带目录版](http://list.youku.com/albumlist/show/id_17584806.html?spm=a2h0j.8191423.Drama.5~5~H3~A)
 - 部分内容来源与YouTube网友的评论: [中科大数学分析——史济怀](https://www.youtube.com/watch?v=WspjK4RqxYc&t=626s)
 
-
+## 目录
 - 01_1.1数轴,1.2无尽小数,1.3数列与收敛数列(1)
 - 02_1.3数列与收敛数列(2)1.4收敛数列的性质(1)
 - 03_1.4收敛数列的性质(2)
