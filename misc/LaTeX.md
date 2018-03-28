@@ -1,8 +1,54 @@
 # LaTeX
 
-> 本文编辑与md格式下...
+> 本文编辑于MarkDown格式下...
 
 
+## 编译套装
+
+两大选择
+
+- TexLive
+- MiKTeX
+
+前者大而全, 体积上G. 
+内置了可以处理中文的XeLaTeX.
+
+MiKTeX体积小, 会在需要时自动下载配置缺少的包. 
+同样内置了可以处理中文的XeLaTeX.
+
+### 基本的排版流程
+
+
+.tex --(latex)--> .dvi --(dvipdfmx)--> .pdf
+
+.tex --(xelatex/pdf/atex) --> .pdf
+
+
+### 一个编译的例子
+```
+latex -interaction=nonstopmode %.tex|（編譯 latex 檔案）
+bibtex %.aux|（編譯論文引用的資料）
+latex -interaction=nonstopmode %.tex|（再編譯一次）
+latex -interaction=nonstopmode %.tex|（再編譯一次）
+xdvi %.dvi（產生 pdf 檔）
+```
+
+使用XeLaTeX且没有参考文献时:
+```
+xelatex -interaction=nonstopmode %.tex|
+xelatex -interaction=nonstopmode %.tex|
+xelatex -interaction=nonstopmode %.tex|
+xdvi %.dvi
+```
+省去了bibtex以避免无谓的编译警告
+
+## 中文文档
+LaTeX 中文文档的排版有各种方式，例如CCT，CJK，xeCJK 等等。
+目前最优秀的方式是用ctex 文档类来排版中文文档，它在其它各种方式的基础上以一致的方式解决了中文排版的问题。
+> \documentclass[UTF8]{ctexart}
+使用这种方式，只需要将文档类从英文的article 改成ctexart，所有中文环境和章节编号等等都已经按照中文习惯设置好了，简单易行。另外，对于book 和report 文档类，也有对应的ctexbook 和ctexrep 中文文档类，其用法类似。
+
+例子中的UTF8 这个可选参数指明了中文文档的编码。编码主要有这两种：GBK 和UTF8，而不同的LaTeX 编辑器对中文文档的默认编码不同。
 
 ## 附录
 
