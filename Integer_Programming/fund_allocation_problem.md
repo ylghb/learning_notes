@@ -1,10 +1,13 @@
 We have an order of 65 shares, which should be allocated to 3 funds.
+
 | Fund | Quantity |
 | ---- | -------- |
 | A001 | 20       |
 | A002 | 30       |
 | A003 | 15       |
+
 Execution is from 3 different brokers.
+
 | Broke  | Quantity | Avg Price |
 | ------ | -------- | --------- |
 | SMBC   | 20       | p_1 = 101       |
@@ -24,6 +27,7 @@ And share should not be divided, share number must be non-negtive integer.
 
 
 Now, let's try to figure out the best solution.
+
 | Fund \ Broker | SMBC | Citi | Nomura | Fund Avg                                         |
 | ------------- | ---- | ---- | ------ | ------------------------------------------------ |
 | A001          | a1_1 | a1_2 | a1_3   | a1_m = (a1_1 * p_1 + a1_2 * p_2 + a1_3 * p_3)/20 |
