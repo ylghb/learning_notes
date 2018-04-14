@@ -5,7 +5,7 @@
 - 视频来源自YouTube: [中科大数学分析——史济怀](https://www.youtube.com/watch?v=WspjK4RqxYc&list=PL8z8nfarlRRyZspCs7cRIONF1Vlr7lusI)
   - 原视频中只有单声道有声音, 进行了修复后重新上传
 > ffmpeg.exe -i input.mp4 -ac 1 output.mp4
-> # 135          mp4        640x480    480p  976k , avc1.4d401e, 30fps, video only, 252.59MiB
+> 135          mp4        640x480    480p  976k , avc1.4d401e, 30fps, video only, 252.59MiB
 > 
 
 - 目录名称来源于: 优酷网友的上传 [数学分析-史济怀完整带目录版](http://list.youku.com/albumlist/show/id_17584806.html?spm=a2h0j.8191423.Drama.5~5~H3~A)
