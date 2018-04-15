@@ -1,4 +1,4 @@
-#  计算机体系结构
+# 计算机体系结构
 
 早期的软件编写是直接面向硬件系统的, 当时的软硬件紧密耦合.
 IBM在 System/360中引入了ISA的概念, 软件人员可以面向ISA进行开发.
@@ -24,7 +24,7 @@ ISA将软硬件解耦, 处理器的外部呈现和内部实现可以分离.
 - CISC 复杂指令集计算机
 - RISC 精简指令集计算机
 - 后RISC
-    - Pentium Pro 所采用的P6微架构中, 将x86的CISC解码为类似RISC的微操作
+  - Pentium Pro 所采用的P6微架构中, 将x86的CISC解码为类似RISC的微操作
 
 五种常见的指令集:
 
@@ -58,4 +58,5 @@ ISA将软硬件解耦, 处理器的外部呈现和内部实现可以分离.
 
 整理自:
 
-[面试宝典3：计算机体系结构](https://csbabel.wordpress.com/2010/10/31/interviewbible-3-computer-architecture/amp/?__twitter_impression=true)
+- [面试宝典3：计算机体系结构](https://csbabel.wordpress.com/2010/10/31/interviewbible-3-computer-architecture/amp/?__twitter_impression=true)
+- 大话处理器
