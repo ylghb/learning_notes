@@ -1,11 +1,32 @@
 # LaTeX: must to know
 
+## TeX家族
+
+- TeX
+
+高德纳教授开发的排版引擎,
+同时也是该引擎使用的标记语言（Markup Lang）的名称.
+TeX引擎则输出 dvi 格式的文档.
+
+- LaTeX
+
+L.Lamport教授开发的基于TeX的排版系统
+
+- pdfTeX/pdfLaTeX
+
+Hàn Thế Thành 博士在他的博士论文中提出了 pdfTeX 这个对 TeX 引擎的扩展.
+pdfTeX 直接输出 pdf 格式文档.
+
+- XeTeX/XeLaTeX
+
+XeTeX 引擎直接支持 Unicode 字符.
+使用 XeTeX 引擎需要使用 UTF-8 编码.
+
 ## TexLive
 
 Windows下的
 
 [Installing TeX Live over the Internet](https://www.tug.org/texlive/acquire-netinstall.html)
-
 
 第一步Latex编译，可以获得.aux文件、.dvi文件、.log文件以及.gz文件；
 

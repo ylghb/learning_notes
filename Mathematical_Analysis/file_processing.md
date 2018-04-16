@@ -4,7 +4,7 @@
 - 原视频中只有单声道有声音
 - 最初的几集音频噪声严重
 
-## 理想的处理思路:
+## 理想的处理思路
 
 1. 分别下载视频与音频
 2. 对音频进行降噪处理, 并合并音频声道
@@ -32,7 +32,7 @@ ffmpeg.exe -i input.mp4 -ac 1 output.mp4
 
 ### 基于SOX的消除视频噪声的处理方法
 
-> sox       下载地址：https://sourceforge.net/projects/sox/files/sox/
+> sox       下载地址：[https://sourceforge.net/projects/sox/files/sox/](https://sourceforge.net/projects/sox/files/sox/)
 
 - 噪音取样
 - 视频音频分离
