@@ -7,13 +7,27 @@ Windows下的
 [Installing TeX Live over the Internet](https://www.tug.org/texlive/acquire-netinstall.html)
 
 
+第一步Latex编译，可以获得.aux文件、.dvi文件、.log文件以及.gz文件；
 
+第二步Bibtex编译，可以获得.blg(性能监视器文件)和.bbl文件；
 
+第三步Latex编译，获得新的.aux文件、.dvi文件、.log文件以及.gz文件；
 
+第四步再次Latex编译。
 
+```nohighlight
+rem to delete temp files before the generating work done
+del *.bib *.blg *.bbl *.aux *.log *.brf *.nlo *.out *.dvi *.ps *.lof *.toc *.fls *.fdb_latexmk *.pdfsync *.synctex*.gz *.ind *.ilg *.idx
 
+rem to generate PDF with Refs
+pdflatex *.tex
+bibtex *.aux
+pdflatex *.tex
+pdflatex *.tex
 
-
+rem to delete temp files after the generating work done
+del *.bib *.blg *.bbl *.aux *.log *.brf *.nlo *.out *.dvi *.ps *.lof *.toc *.fls *.fdb_latexmk *.pdfsync *.synctex*.gz *.ind *.ilg *.idx
+```
 
 ## LaTex常见的文件类型汇总
 

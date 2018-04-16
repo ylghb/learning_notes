@@ -3,14 +3,29 @@
 ## 资料来源
 
 - 视频来源自YouTube: [中科大数学分析——史济怀](https://www.youtube.com/playlist?list=PL8z8nfarlRRyZspCs7cRIONF1Vlr7lusI)
-  - 视频的清晰度前后不一, 统一以MP4格式的480p进行下载
-  - 原视频中只有单声道有声音, 进行了修复后重新上传 
-```bash 
+
+  - 视频的清晰度前后不一
+  - 原视频中只有单声道有声音
+  - 音频噪声严重
+
+```bash
 youtube-dl.exe -f '135+251' https://www.youtube.com/playlist?list=PL8z8nfarlRRyZspCs7cRIONF1Vlr7lusI
 # 135 是MP4格式的480p视频
 # 251 是
 ffmpeg.exe -i input.mp4 -ac 1 output.mp4
 ```
+
+处理思路:
+
+1. 分别下载视频与音频
+2. 对音频进行降噪处理, 并合并音频声道
+3. 合并视频音轨, 并且重命名
+
+文件名的注意点:
+
+1. 下载时以序号命名文件
+2. 重命名时确保文件名不包含空格,括号等容易导致shell难以处理的字符
+
 - 目录名称来源于: 优酷网友的上传 [数学分析-史济怀完整带目录版](http://list.youku.com/albumlist/show/id_17584806.html?spm=a2h0j.8191423.Drama.5~5~H3~A)
 - 部分内容来源与YouTube网友的评论: [AN ZHANG](https://www.youtube.com/channel/UCzKsKpS91O12WED0CA-zXcg)
 
