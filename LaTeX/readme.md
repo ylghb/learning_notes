@@ -22,11 +22,20 @@ pdfTeX 直接输出 pdf 格式文档.
 XeTeX 引擎直接支持 Unicode 字符.
 使用 XeTeX 引擎需要使用 UTF-8 编码.
 
-## TexLive
+## 常用的发行版本
 
-Windows下的
+TexLive
 
-[Installing TeX Live over the Internet](https://www.tug.org/texlive/acquire-netinstall.html)
+## 其他发行版本
+
+TinyTeX 是基于 TeX Live 的瘦身版本，覆盖了大多数常用包，安装下来占用大概 150 MB 空间，比起原 TeX Live 动辄上 GB 的身躯实在要小不少。
+TinyTeX 支持 Linux、macOS 及 Windows。
+[https://yihui.name/tinytex/](https://yihui.name/tinytex/)
+
+默认没有中文支持的相关包。还要安装ctex等一堆包。
+装完大概是230M。texdoc这种命令自然也是没有了的。
+
+## 基本的编译步骤
 
 第一步Latex编译，可以获得.aux文件、.dvi文件、.log文件以及.gz文件；
 
@@ -36,7 +45,11 @@ Windows下的
 
 第四步再次Latex编译。
 
-```nohighlight
+## Windows下的环境搭建
+
+[Installing TeX Live over the Internet](https://www.tug.org/texlive/acquire-netinstall.html)
+
+```bat
 rem to delete temp files before the generating work done
 del *.bib *.blg *.bbl *.aux *.log *.brf *.nlo *.out *.dvi *.ps *.lof *.toc *.fls *.fdb_latexmk *.pdfsync *.synctex*.gz *.ind *.ilg *.idx
 
