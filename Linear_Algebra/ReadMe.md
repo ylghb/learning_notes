@@ -2,16 +2,23 @@
 
 ## 简介
 
-## Reference
-线性代数笔记，使用 `jupyter notebook (ipython notebook)` 编写展示。
+MIT的Strang教授所执教的线性代数课笔记, 使用 `Jupyter Notebook` 编写.
+同时整理了Markdown格式.
 
-`Github` 加载 `.ipynb` 的速度较慢，建议在 [Nbviewer](http://nbviewer.jupyter.org/github/zlotus/notes-linear-algebra/blob/master/ReadMe.ipynb) 中查看该项目。
+`Github` 加载 `.ipynb` 的速度较慢，且很多公式的渲染不正确, 应该在 [Nbviewer](http://nbviewer.jupyter.org/github/zlotus/notes-linear-algebra/blob/master/ReadMe.ipynb) 
+或本地搭建的`Jupyter Notebook`环境中查看该项目.
 
-更加严重的问题是, 很多公式的渲染不正确....
+## 内容来源
 
-##  canzhao
+- [官方课程网址](http://web.mit.edu/18.06/www/)
 
-zlotus https://github.com/zlotus/notes-linear-algebra
+- [zlotus的线性代数笔记 @Github]( https://github.com/zlotus/notes-linear-algebra )
+- [zlotus的线性代数笔记 @NbViewer](http://nbviewer.jupyter.org/github/zlotus/notes-linear-algebra/blob/master/ReadMe.ipynb)
+- [知乎专栏 MIT线性代数课程精细笔记](https://zhuanlan.zhihu.com/p/28277072)
+- [网易公开课 主课视频](http://open.163.com/special/opencourse/daishu.html)
+- [带中文字幕Youtube](https://www.youtube.com/playlist?list=PL6839449936471E0C)
+
+- [网易公开课 习题课视频](http://open.163.com/special/opencourse/mitxianxingdaishuxitike.html)
 
 ----
 
@@ -54,5 +61,3 @@ zlotus https://github.com/zlotus/notes-linear-algebra
 - 第33集 [单元检测3复习](chapter33.ipynb)
 - 第34集 [左右逆和伪逆](chapter34.ipynb)
 - 第35集 [期末复习](chapter35.ipynb)
-
-笔记格式借鉴[Jin Li](https://github.com/lijin-THU/)的[机器学习笔记](https://github.com/lijin-THU/notes-machine-learning)。
