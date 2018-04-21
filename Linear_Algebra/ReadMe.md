@@ -2,11 +2,16 @@
 
 ## 简介
 
-**作者：子实**
-
+## Reference
 线性代数笔记，使用 `jupyter notebook (ipython notebook)` 编写展示。
 
 `Github` 加载 `.ipynb` 的速度较慢，建议在 [Nbviewer](http://nbviewer.jupyter.org/github/zlotus/notes-linear-algebra/blob/master/ReadMe.ipynb) 中查看该项目。
+
+更加严重的问题是, 很多公式的渲染不正确....
+
+##  canzhao
+
+zlotus https://github.com/zlotus/notes-linear-algebra
 
 ----
 
