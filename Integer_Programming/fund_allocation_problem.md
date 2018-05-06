@@ -24,8 +24,6 @@ And share should not be divided, share number must be non-negtive integer.
 | A002          | 14   | 5    | 11     | 101.4003 |
 | A003          | 3    | 6    | 6      | 101.4040 |
 
-
-
 Now, let's try to figure out the best solution.
 
 | Fund \ Broker | SMBC | Citi | Nomura | Fund Avg                                         |
