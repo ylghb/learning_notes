@@ -97,7 +97,7 @@
 
 ## 完整的四步编译
 
-``tex
+```json
     "latex-workshop.latex.tools": [
         {
             "command": "ptex2pdf",
